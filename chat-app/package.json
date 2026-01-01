@@ -1,0 +1,27 @@
+{
+  "name": "chat-platform",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist-electron/main.js",
+  "author": "lhw,yxc,wgr",
+  "scripts": {
+    "dev": "chcp 65001 && vite",
+    "build": "vite build  && electron-builder",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cropperjs": "^1.6.2",
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "electron": "^39.0.0",
+    "electron-builder": "^26.0.12",
+    "vite": "npm:rolldown-vite@7.1.14",
+    "vite-plugin-electron": "^0.29.0"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.1.14"
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "productName": "chat",
+    "appId": "com.lhw.www",
+    "win": {
+        "icon": "electron/resource/images/code.ico",
+        "target": [
+            {
+                "target": "nsis",
+                "arch": [
+                    "x64"
+                ]
+            }
+        ]
+    },
+    "nsis": {
+        "oneClick": false,
+        "perMachine": true,
+        "allowToChangeInstallationDirectory": true
+    },
+    "asar": false,
+    "files": [
+        "dist",
+        "dist-electron",
+        "electron/resource/**/*"
+    ],
+    "extraResources": [
+        {
+            "from": "electron/resource",
+            "to": "electron/resource",
+            "filter": ["**/*"]
+        }
+    ],
+    "directories": {
+        "output": "build"
+    }
+}
