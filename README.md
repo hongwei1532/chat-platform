@@ -4,13 +4,13 @@
 
 [![Vue](https://img.shields.io/badge/Vue-3.0-4fc08d.svg)](https://vuejs.org/) [![Electron](https://img.shields.io/badge/Electron-39.0-47848f.svg)](https://electronjs.org/) [![MySQL](https://img.shields.io/badge/MySQL-8.0-00758f.svg)](https://mysql.com/)
 
----
+
 
 ## 📖 项目简介
 
 本项目是一款功能完整的桌面即时通讯平台，采用前后端分离架构，提供类似微信/Facebook Messenger 的核心体验。系统支持实时消息推送、好友管理、群组聊天、消息收藏、AI 智能对话等丰富功能，适合企业内部或小规模社区日常沟通使用。
 
----
+
 
 ## ✨ 核心功能
 
@@ -57,7 +57,7 @@
 - ✅ 群成员变动通知
 - ✅ 系统消息推送
 
----
+
 
 ## 🛠 技术栈
 
@@ -89,7 +89,7 @@
 - **DeepSeek API** - AI 对话服务
 - **SMTP 邮件服务器** - 验证码发送
 
----
+
 
 ## 📐 系统架构
 
@@ -131,7 +131,7 @@
    └─ message/ - 聊天文件
 ```
 
----
+
 
 ## 🚀 快速开始
 
@@ -198,7 +198,7 @@ curl http://localhost:3000/health
 
 #### 3. 前端应用安装
 
-如果您启动了后端服务，可以直接下载 Releases 中的可执行文件，双击允许即可，并跳过以下步骤。
+如果您启动了后端服务，可以直接下载 Releases 中的可执行文件，双击运行即可，并跳过以下步骤。
 
 ```bash
 cd chat-app
@@ -219,7 +219,7 @@ npm run build
 2. 输入后端 API 地址（默认：`http://localhost:3000`）
 3. 点击"保存并继续"
 
----
+
 
 ## 📦 项目结构
 
@@ -253,7 +253,7 @@ chat-platform/
 └── README.md                   # 项目说明
 ```
 
----
+
 
 ## 🔌 核心 API 接口
 
@@ -296,7 +296,7 @@ chat-platform/
 - `GET /api/chat/v1/ai-friend/history` - 获取对话历史
 - `WS /api/chat/v1/ai-friend/chat-stream` - AI 流式对话
 
----
+
 
 ## 👥 贡献者
 
@@ -323,13 +323,13 @@ chat-platform/
 
 本项目遵循 [MIT License](./LICENSE) 协议开源
 
----
+
 
 ## 📞 支持与反馈
 
 如有问题或建议，请提交 Issue 或 Pull Request。
 
----
+
 
 ## 🔄 更新日志
 
@@ -339,7 +339,8 @@ chat-platform/
 - ✨ 完成用户认证、好友管理、群组聊天、AI 对话核心功能
 - ✨ 支持实时消息推送、文件传输、消息撤回
 
----
+
 
 **注意**: 本项目仍在持续开发中，部分功能可能不完善。欢迎贡献代码和提出建议！
+
 **⭐ 如果您觉得本项目有用，欢迎 Star 支持！**
